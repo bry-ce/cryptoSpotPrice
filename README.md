@@ -4,4 +4,4 @@
 
 
 ## Art Credit
-- background art created by (Kayla Wimer)[href='https://www.instagram.com/kaylamariewimer/']
+- background art created by [Kayla Wimer](https://www.instagram.com/kaylamariewimer/)
