@@ -1,5 +1,9 @@
 body{
-  background-color: lightblue;
+  background-color: #000032;
+  background-image: url('./assets/IMG_0018.jpg');
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
@@ -15,19 +19,30 @@ body{
   
 }
 .header {
-  background-color: aqua;
-  border: 1px solid;
+  color: #FBB99F;
+  background-color: #000032;
+  box-shadow: 0px 3px 3px #000032;
 }
 
 .connectButton {
-  background-color: hsl(231, 87%, 82%);
-  border-radius: 10px;
+  background-color: #000032;
+  transition-duration: 200ms;
   font-size: medium;
-  
+  border: 0;
+  height: 40px;
+  color: hsl(17, 92%, 80%);
 }
 .connectButton:hover{
-  background-color: hsl(231, 100%, 68%);
+  background-color: hsl(240, 100%, 30%);
+  border-radius: 10px;
+  font-size: medium;
+  transition-duration: 200ms;
+}
+
+.connectButton:active{
+  background-color: hsl(240, 100%, 45%);
   transition-duration: 100ms;
+  color: hsl(17, 92%, 92%);
 }
 
 .card-header {
@@ -36,9 +51,7 @@ body{
   justify-content: center;
   align-items: center;
   font-size: small;
-  border-color: rgb(1, 1, 62);
-  border-bottom: 0px;
-  color: rgb(0, 0, 154);
+  color: #FBB99F;
 }
 
 .card-header h1{
@@ -54,21 +67,43 @@ body{
 }
 
 .input-eth-container button{
-  background-color: hsl(231, 87%, 82%);
-  border-radius: 10px;
+  background-color: #000032;
+  transition-duration: 200ms;
   font-size: medium;
+  border: 0;
+  height: 40px;
+  color: #FBB99F;
+  border-radius: 10px;
 }
 
 .input-eth-container button:hover{
-  background-color: hsl(191, 100%, 50%);
+  background-color: hsl(240, 100%, 30%);
+  border-radius: 10px;
+  font-size: medium;
+  transition-duration: 200ms;
+}
+
+.input-eth-container button:active {
+  background-color: hsl(240, 100%, 45%);
   transition-duration: 100ms;
+  color: hsl(17, 92%, 92%);
 }
 .card-container {
+  width: 400px;
   border-radius: 25px;
-  background-color: hsl(231, 100%, 68%);
+  background-image: radial-gradient(hsl(240, 100%, 20%), hsl(240,100%,10%));
   height: 400px;
   margin: 75px;
   justify-content: center;
   align-items: center;
-  box-shadow: 5px 5px 5px rgb(0, 0, 154);
+}
+
+.price-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-logo{
+  background-image: url('.\assets/IMG_0018.jpg');
 }

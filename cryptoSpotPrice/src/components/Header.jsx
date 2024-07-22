@@ -3,7 +3,7 @@ function Header(){
     return(
         <div className="header-container header">
             <div className="logo-container">
-                <img src=".\assets/IMG_0018.jpg"></img>
+                <img className="header-logo"></img>
                 <p>Liquid Scout</p>
             </div>
             <div className="balance-container">
