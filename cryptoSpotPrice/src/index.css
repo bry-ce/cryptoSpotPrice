@@ -27,7 +27,7 @@ body{
 }
 .connectButton:hover{
   background-color: hsl(231, 100%, 68%);
-  transition-duration: 200ms;
+  transition-duration: 100ms;
 }
 
 .card-header {
@@ -51,6 +51,17 @@ body{
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.input-eth-container button{
+  background-color: hsl(231, 87%, 82%);
+  border-radius: 10px;
+  font-size: medium;
+}
+
+.input-eth-container button:hover{
+  background-color: hsl(191, 100%, 50%);
+  transition-duration: 100ms;
 }
 .card-container {
   border-radius: 25px;
