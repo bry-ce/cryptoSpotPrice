@@ -1,23 +1,63 @@
 body{
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-.card {
-  margin: 10px;
-  font-display: flex;
-  height: 250px;
-  width: 250px;
-  border: hsl(0, 0%, 20%) solid;
-  border-width: 1px;
-  font-family: Arial, Helvetica, sans-serif;
-  align-content: center;
-  text-align: center;
-  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.25);
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo-container {
+  display: flex;
+  
+}
+.header {
+  background-color: aqua;
+  border: 1px solid;
 }
 
 .connectButton {
-  background-color: rgb(16, 16, 103);
+  background-color: hsl(231, 87%, 82%);
   border-radius: 10px;
-  -webkit-text-fill-color: rgb(198, 198, 198);
+  font-size: medium;
+  
+}
+.connectButton:hover{
+  background-color: hsl(231, 100%, 68%);
+  transition-duration: 200ms;
+}
+
+.card-header {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  border-color: rgb(1, 1, 62);
+  border-bottom: 0px;
+  color: rgb(0, 0, 154);
+}
+
+.card-header h1{
+  justify-content: center;
+  align-items: center;
+}
+
+.input-eth-container {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  border-radius: 25px;
+  background-color: hsl(231, 100%, 68%);
+  height: 400px;
+  margin: 75px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 5px rgb(0, 0, 154);
 }

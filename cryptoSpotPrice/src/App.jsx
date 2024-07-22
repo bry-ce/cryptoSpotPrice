@@ -1,11 +1,11 @@
 import { useState, useEffect, StrictMode } from "react";
 import Card from "./components/Card";
-import ConnectButton from "./components/ConnectButton"
+import Header from "./components/Header";
 function App(){
   return(
     <>
-      <Card/>
-      <ConnectButton/>
+      <Header/>
+      <Card/>   
     </>
   );
 }
