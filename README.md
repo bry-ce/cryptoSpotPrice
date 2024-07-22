@@ -1,4 +1,3 @@
-## Information:
 # quickly and easily check the value of your ethereum holdings
 
 ## How to use:
