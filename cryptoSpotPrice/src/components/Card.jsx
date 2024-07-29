@@ -6,6 +6,9 @@ function Card(){
                     <div className="card-header">
                         <h1>Position Price Checker</h1>
                     </div>
+                    <div className="balance-container">
+                        <p className="balance">0.00000</p>
+                    </div>
                     <div className="input-eth-container">
                         <input type="text" />
                         <button>Max</button>

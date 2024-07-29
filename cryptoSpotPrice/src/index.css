@@ -60,10 +60,10 @@ body{
 }
 
 .input-eth-container {
-  height: 100px;
+  max-height: fit-content;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: top;
 }
 
 .input-eth-container button{
@@ -105,5 +105,21 @@ body{
 }
 
 .header-logo{
-  background-image: url('.\assets/IMG_0018.jpg');
+  background-image: url('./assets/IMG_0018.jpg');
+}
+
+.balance{
+  color: hsl(250, 6%, 21%);
+  text-decoration: underline;
+  padding-left: 50px;
+  
+}
+
+.balance-container{
+  align-items: bottom;
+  display: flex;
+  justify-content: left;
+  max-height: fit-content;
+  margin: 0;
+  padding: 0;
 }
