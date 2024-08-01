@@ -1,7 +1,7 @@
 
 import {getAccount, account, accounts, connected, disconnectAccount} from '../ConnectDisconnectAccount.js'
 function ConnectButton(){
-    if( connected ){
+    if(connected){
         return <button className="connectButton" onClick={disconnectAccount}>Disconnect Account</button>
     } else {
         return(
